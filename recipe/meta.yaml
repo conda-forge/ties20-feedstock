@@ -1,4 +1,4 @@
-{% set name = "TIES20" %}
+{% set name = "ties" %}
 {% set version = "2.0.2" %}
 
 package:
