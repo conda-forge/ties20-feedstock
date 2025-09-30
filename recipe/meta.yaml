@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/UCL-CCS/TIES/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 51354c370ded75886c46695a339a158b6ef474798dd092b5c406826f00138865
+  sha256: 183c2c319550ab5748fea069f490a0371ae5547a968daa4e832354019a77a7ec
 
 build:
   number: 0
