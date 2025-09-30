@@ -29,7 +29,7 @@ requirements:
     - networkx
     - tabulate
     - MDAnalysis
-    - dimod
+#    - dimod
     - rdkit
     - numpy < 2.3 # see the main environment.yml for the reason
 
