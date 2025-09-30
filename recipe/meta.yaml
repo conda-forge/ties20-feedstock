@@ -31,7 +31,7 @@ requirements:
     - MDAnalysis
     - dimod
     - rdkit
-    - numpy <2.3 # see the main environment.yml for the reason
+    - numpy <2.3
 
 test:
   imports:
