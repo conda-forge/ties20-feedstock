@@ -11,7 +11,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [win or osx and py==310]
+  skip: true  # [win or osx and py==310]
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - ties = ties:cli.command_line_script
@@ -50,7 +50,7 @@ test:
 
 about:
   home: https://github.com/UCL-CCS/TIES20
-  summary: 'Topology Superimposition based on joint graph traversal.'
+  summary: Topology Superimposition based on joint graph traversal.
   description: |
     Topology Superimposition based on joint graph traversal.
   license: MIT
