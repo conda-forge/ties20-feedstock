@@ -18,25 +18,26 @@ build:
 
 requirements:
   host:
-    - python
+    - python {{ python_min }}
     - pip
     - cython
     - setuptools
   run:
-    - python
+    - python {{ python_min }}
     - ambertools >=21.0
-    - matplotlib
+    - matplotlib-base
     - networkx
     - tabulate
     - MDAnalysis
-#    - dimod
+    - dimod
     - rdkit
-    - numpy < 2.3 # see the main environment.yml for the reason
+    - numpy <2.3 # see the main environment.yml for the reason
 
 test:
   imports:
     - ties
   requires:
+    - python {{ python_min }}
     - pip
     - pytest
   commands:
