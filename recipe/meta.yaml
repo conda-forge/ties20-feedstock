@@ -17,9 +17,6 @@ build:
     - ties = ties:cli.command_line_script
 
 requirements:
-  build:
-    - {{ stdlib("c") }}
-    - {{ compiler('c') }}
   host:
     - python
     - pip
@@ -31,6 +28,7 @@ requirements:
     - matplotlib
     - networkx
     - tabulate
+    - MDAnalysis
     - dimod
     - rdkit
     - numpy < 2.3 # see the main environment.yml for the reason
