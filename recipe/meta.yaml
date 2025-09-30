@@ -23,19 +23,17 @@ requirements:
   host:
     - python
     - pip
-    - numpy
     - cython
     - setuptools
   run:
     - python
-    - ambertools >=20.0,<=22.0
-    - ties_md =1.4.1
-    - numpy
-    - matplotlib-base
+    - ambertools >=21.0
+    - matplotlib
     - networkx
-    - dwave-networkx
-    - dimod
     - tabulate
+    - dimod
+    - rdkit
+    - numpy < 2.3 # see the main environment.yml for the reason
 
 test:
   imports:
