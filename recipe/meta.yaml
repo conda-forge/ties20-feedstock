@@ -11,8 +11,8 @@ source:
 
 build:
   number: 0
-  skip: true  # [win or osx and py==310]
   script: {{ PYTHON }} -m pip install . -vv
+  noarch: python
   entry_points:
     - ties = ties:cli.command_line_script
 
